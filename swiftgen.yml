@@ -1,0 +1,7 @@
+strings:
+- inputs: WoopEvent/SupportingFiles/Resources/Localizable.strings
+  outputs:
+    templateName: flat-swift5
+    output: WoopEvent/SupportingFiles/SwiftGen/WPStrings.swift
+    params:
+       enumName: WPStrings

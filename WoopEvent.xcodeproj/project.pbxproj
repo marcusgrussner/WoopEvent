@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3616C5638001EE6C2F713235 /* libPods-WoopEventTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8030E9B87AD0B0B2E1BDED5D /* libPods-WoopEventTests.a */; };
+		4140ADDFCACE1A02E7C1F0AD /* libPods-WoopEvent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F15274945121DA6F2B4128E5 /* libPods-WoopEvent.a */; };
 		DF3137A6270BF397007F36FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3137A5270BF397007F36FA /* AppDelegate.swift */; };
 		DF3137A8270BF397007F36FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3137A7270BF397007F36FA /* SceneDelegate.swift */; };
 		DF3137AA270BF397007F36FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3137A9270BF397007F36FA /* ViewController.swift */; };
@@ -14,8 +16,9 @@
 		DF3137AF270BF399007F36FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3137AE270BF399007F36FA /* Assets.xcassets */; };
 		DF3137B2270BF399007F36FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3137B0270BF399007F36FA /* LaunchScreen.storyboard */; };
 		DF3137BD270BF399007F36FA /* WoopEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3137BC270BF399007F36FA /* WoopEventTests.swift */; };
-		DF3137C7270BF399007F36FA /* WoopEventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3137C6270BF399007F36FA /* WoopEventUITests.swift */; };
-		DF3137C9270BF399007F36FA /* WoopEventUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3137C8270BF399007F36FA /* WoopEventUITestsLaunchTests.swift */; };
+		DF8F1F4B270BF7D800C5D040 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1F4A270BF7D800C5D040 /* Localizable.strings */; };
+		DF8F1F4D270BF7F100C5D040 /* WPStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F4C270BF7F100C5D040 /* WPStrings.swift */; };
+		DF8F1F4F270BF81800C5D040 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1F4E270BF81800C5D040 /* swiftgen.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,14 @@
 			remoteGlobalIDString = DF3137A1270BF397007F36FA;
 			remoteInfo = WoopEvent;
 		};
-		DF3137C3270BF399007F36FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF31379A270BF397007F36FA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF3137A1270BF397007F36FA;
-			remoteInfo = WoopEvent;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F64282D79151E4DDEDE7C2 /* Pods-WoopEventTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopEventTests.debug.xcconfig"; path = "Target Support Files/Pods-WoopEventTests/Pods-WoopEventTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31AE9A9717CDFF428436CA51 /* Pods-WoopEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopEvent.release.xcconfig"; path = "Target Support Files/Pods-WoopEvent/Pods-WoopEvent.release.xcconfig"; sourceTree = "<group>"; };
+		52632AD8746246C21E269B1F /* Pods-WoopEvent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopEvent.debug.xcconfig"; path = "Target Support Files/Pods-WoopEvent/Pods-WoopEvent.debug.xcconfig"; sourceTree = "<group>"; };
+		8030E9B87AD0B0B2E1BDED5D /* libPods-WoopEventTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEventTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946ACAA8D07C9A55855499F6 /* Pods-WoopEventTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopEventTests.release.xcconfig"; path = "Target Support Files/Pods-WoopEventTests/Pods-WoopEventTests.release.xcconfig"; sourceTree = "<group>"; };
 		DF3137A2270BF397007F36FA /* WoopEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoopEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3137A5270BF397007F36FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF3137A7270BF397007F36FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,9 +47,10 @@
 		DF3137B3270BF399007F36FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF3137B8270BF399007F36FA /* WoopEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoopEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3137BC270BF399007F36FA /* WoopEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoopEventTests.swift; sourceTree = "<group>"; };
-		DF3137C2270BF399007F36FA /* WoopEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoopEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3137C6270BF399007F36FA /* WoopEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoopEventUITests.swift; sourceTree = "<group>"; };
-		DF3137C8270BF399007F36FA /* WoopEventUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoopEventUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF8F1F4A270BF7D800C5D040 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DF8F1F4C270BF7F100C5D040 /* WPStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPStrings.swift; sourceTree = "<group>"; };
+		DF8F1F4E270BF81800C5D040 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		F15274945121DA6F2B4128E5 /* libPods-WoopEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4140ADDFCACE1A02E7C1F0AD /* libPods-WoopEvent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,26 +66,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF3137BF270BF399007F36FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3616C5638001EE6C2F713235 /* libPods-WoopEventTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D075A20AF23A784D1967816F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F15274945121DA6F2B4128E5 /* libPods-WoopEvent.a */,
+				8030E9B87AD0B0B2E1BDED5D /* libPods-WoopEventTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D97F491E3293F4E2FAE94619 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52632AD8746246C21E269B1F /* Pods-WoopEvent.debug.xcconfig */,
+				31AE9A9717CDFF428436CA51 /* Pods-WoopEvent.release.xcconfig */,
+				07F64282D79151E4DDEDE7C2 /* Pods-WoopEventTests.debug.xcconfig */,
+				946ACAA8D07C9A55855499F6 /* Pods-WoopEventTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF313799270BF397007F36FA = {
 			isa = PBXGroup;
 			children = (
+				DF8F1F4E270BF81800C5D040 /* swiftgen.yml */,
 				DF3137A4270BF397007F36FA /* WoopEvent */,
 				DF3137BB270BF399007F36FA /* WoopEventTests */,
-				DF3137C5270BF399007F36FA /* WoopEventUITests */,
 				DF3137A3270BF397007F36FA /* Products */,
+				D97F491E3293F4E2FAE94619 /* Pods */,
+				D075A20AF23A784D1967816F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +110,6 @@
 			children = (
 				DF3137A2270BF397007F36FA /* WoopEvent.app */,
 				DF3137B8270BF399007F36FA /* WoopEventTests.xctest */,
-				DF3137C2270BF399007F36FA /* WoopEventUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +117,7 @@
 		DF3137A4270BF397007F36FA /* WoopEvent */ = {
 			isa = PBXGroup;
 			children = (
+				DF8F1F47270BF77300C5D040 /* SupportingFiles */,
 				DF3137A5270BF397007F36FA /* AppDelegate.swift */,
 				DF3137A7270BF397007F36FA /* SceneDelegate.swift */,
 				DF3137A9270BF397007F36FA /* ViewController.swift */,
@@ -118,13 +137,29 @@
 			path = WoopEventTests;
 			sourceTree = "<group>";
 		};
-		DF3137C5270BF399007F36FA /* WoopEventUITests */ = {
+		DF8F1F47270BF77300C5D040 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				DF3137C6270BF399007F36FA /* WoopEventUITests.swift */,
-				DF3137C8270BF399007F36FA /* WoopEventUITestsLaunchTests.swift */,
+				DF8F1F49270BF7B800C5D040 /* Resources */,
+				DF8F1F48270BF7B000C5D040 /* SwiftGen */,
 			);
-			path = WoopEventUITests;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DF8F1F48270BF7B000C5D040 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1F4C270BF7F100C5D040 /* WPStrings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		DF8F1F49270BF7B800C5D040 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1F4A270BF7D800C5D040 /* Localizable.strings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF3137CC270BF39A007F36FA /* Build configuration list for PBXNativeTarget "WoopEvent" */;
 			buildPhases = (
+				3884A6829FE375142A9A86C0 /* [CP] Check Pods Manifest.lock */,
 				DF31379E270BF397007F36FA /* Sources */,
 				DF31379F270BF397007F36FA /* Frameworks */,
 				DF3137A0270BF397007F36FA /* Resources */,
@@ -151,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF3137CF270BF39A007F36FA /* Build configuration list for PBXNativeTarget "WoopEventTests" */;
 			buildPhases = (
+				B70DB1EDBCA89F28BAA6B99C /* [CP] Check Pods Manifest.lock */,
 				DF3137B4270BF399007F36FA /* Sources */,
 				DF3137B5270BF399007F36FA /* Frameworks */,
 				DF3137B6270BF399007F36FA /* Resources */,
@@ -164,24 +201,6 @@
 			productName = WoopEventTests;
 			productReference = DF3137B8270BF399007F36FA /* WoopEventTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DF3137C1270BF399007F36FA /* WoopEventUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF3137D2270BF39A007F36FA /* Build configuration list for PBXNativeTarget "WoopEventUITests" */;
-			buildPhases = (
-				DF3137BE270BF399007F36FA /* Sources */,
-				DF3137BF270BF399007F36FA /* Frameworks */,
-				DF3137C0270BF399007F36FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF3137C4270BF399007F36FA /* PBXTargetDependency */,
-			);
-			name = WoopEventUITests;
-			productName = WoopEventUITests;
-			productReference = DF3137C2270BF399007F36FA /* WoopEventUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,10 +216,6 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					DF3137B7270BF399007F36FA = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = DF3137A1270BF397007F36FA;
-					};
-					DF3137C1270BF399007F36FA = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = DF3137A1270BF397007F36FA;
 					};
@@ -221,7 +236,6 @@
 			targets = (
 				DF3137A1270BF397007F36FA /* WoopEvent */,
 				DF3137B7270BF399007F36FA /* WoopEventTests */,
-				DF3137C1270BF399007F36FA /* WoopEventUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3137B2270BF399007F36FA /* LaunchScreen.storyboard in Resources */,
+				DF8F1F4F270BF81800C5D040 /* swiftgen.yml in Resources */,
+				DF8F1F4B270BF7D800C5D040 /* Localizable.strings in Resources */,
 				DF3137AF270BF399007F36FA /* Assets.xcassets in Resources */,
 				DF3137AD270BF397007F36FA /* Main.storyboard in Resources */,
 			);
@@ -244,14 +260,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF3137C0270BF399007F36FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3884A6829FE375142A9A86C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoopEvent-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		B70DB1EDBCA89F28BAA6B99C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoopEventTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF31379E270BF397007F36FA /* Sources */ = {
@@ -261,6 +317,7 @@
 				DF3137AA270BF397007F36FA /* ViewController.swift in Sources */,
 				DF3137A6270BF397007F36FA /* AppDelegate.swift in Sources */,
 				DF3137A8270BF397007F36FA /* SceneDelegate.swift in Sources */,
+				DF8F1F4D270BF7F100C5D040 /* WPStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +329,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF3137BE270BF399007F36FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF3137C9270BF399007F36FA /* WoopEventUITestsLaunchTests.swift in Sources */,
-				DF3137C7270BF399007F36FA /* WoopEventUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +336,6 @@
 			isa = PBXTargetDependency;
 			target = DF3137A1270BF397007F36FA /* WoopEvent */;
 			targetProxy = DF3137B9270BF399007F36FA /* PBXContainerItemProxy */;
-		};
-		DF3137C4270BF399007F36FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DF3137A1270BF397007F36FA /* WoopEvent */;
-			targetProxy = DF3137C3270BF399007F36FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,6 +477,7 @@
 		};
 		DF3137CD270BF39A007F36FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52632AD8746246C21E269B1F /* Pods-WoopEvent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +505,7 @@
 		};
 		DF3137CE270BF39A007F36FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31AE9A9717CDFF428436CA51 /* Pods-WoopEvent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +533,7 @@
 		};
 		DF3137D0270BF39A007F36FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F64282D79151E4DDEDE7C2 /* Pods-WoopEventTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +558,7 @@
 		};
 		DF3137D1270BF39A007F36FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946ACAA8D07C9A55855499F6 /* Pods-WoopEventTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,50 +578,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoopEvent.app/WoopEvent";
-			};
-			name = Release;
-		};
-		DF3137D3270BF39A007F36FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcusgrussner.WoopEventUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WoopEvent;
-			};
-			name = Debug;
-		};
-		DF3137D4270BF39A007F36FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcusgrussner.WoopEventUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WoopEvent;
 			};
 			name = Release;
 		};
@@ -604,15 +607,6 @@
 			buildConfigurations = (
 				DF3137D0270BF39A007F36FA /* Debug */,
 				DF3137D1270BF39A007F36FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF3137D2270BF39A007F36FA /* Build configuration list for PBXNativeTarget "WoopEventUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF3137D3270BF39A007F36FA /* Debug */,
-				DF3137D4270BF39A007F36FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Nimble (9.2.1)
+  - Quick (4.0.0)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxOptional (5.0.2):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SnapshotTesting (1.8.2)
+  - SwiftGen (6.4.0)
+  - SwiftLint (0.44.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Nimble
+  - Quick
+  - RxCocoa
+  - RxOptional
+  - RxSwift
+  - SnapshotTesting (~> 1.8.1)
+  - SwiftGen
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Nimble
+    - Quick
+    - RxCocoa
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - SnapshotTesting
+    - SwiftGen
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxOptional: 3664964c96b69dd20c9cf78bdfe546615e26eca8
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SnapshotTesting: 38947050d13960d57a4a9c166fcf51bca7d56970
+  SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
+  SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
+
+PODFILE CHECKSUM: b56f5a396f78daf2acd6766b496ec19c405e72e9
+
+COCOAPODS: 1.11.2

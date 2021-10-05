@@ -9,6 +9,20 @@ import Foundation
 
 // swiftlint:disable function_parameter_count identifier_name line_length type_body_length
 internal enum WPStrings {
+  /// Check-in
+  internal static let checkinLabel = WPStrings.tr("Localizable", "checkinLabel")
+  /// Não há eventos cadastrados no momento.
+  internal static let eventListEmptyMessage = WPStrings.tr("Localizable", "eventListEmptyMessage")
+  /// Não foi possível carregar a lista de eventos.
+  internal static let eventListErrorLoad = WPStrings.tr("Localizable", "eventListErrorLoad")
+  /// Check-in realizado com sucesso
+  internal static let successCheckinMessage = WPStrings.tr("Localizable", "successCheckinMessage")
+  /// Detalhes
+  internal static let titleEventDetail = WPStrings.tr("Localizable", "titleEventDetail")
+  /// Eventos
+  internal static let titleListEvents = WPStrings.tr("Localizable", "titleListEvents")
+  /// Tentar Novamente
+  internal static let tryAgain = WPStrings.tr("Localizable", "tryAgain")
 }
 // swiftlint:enable function_parameter_count identifier_name line_length type_body_length
 

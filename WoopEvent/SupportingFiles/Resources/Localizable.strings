@@ -1,7 +1,7 @@
-/* 
-  Localizable.strings
-  WoopEvent
-
-  Created by Marcus Vinicius Grussner on 05/10/21.
-  
-*/
+"titleListEvents" = "Eventos";
+"titleEventDetail" = "Detalhes";
+"checkinLabel" = "Check-in";
+"successCheckinMessage" = "Check-in realizado com sucesso";
+"tryAgain" = "Tentar Novamente";
+"eventListErrorLoad" = "Não foi possível carregar a lista de eventos.";
+"eventListEmptyMessage" = "Não há eventos cadastrados no momento.";

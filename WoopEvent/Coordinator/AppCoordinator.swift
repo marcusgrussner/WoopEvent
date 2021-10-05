@@ -28,6 +28,8 @@ extension AppCoordinator {
     // MARK: - Private methods
     
     private func startEventsCoordinator() {
-        
+        let coordinator = EventsCoordinator(navigationController: navigationController)
+        add(coordinator)
+        coordinator.start()
     }
 }

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  WoopEvent
-//
-//  Created by Marcus Vinicius Grussner on 04/10/21.
-//
-
 import UIKit
 
 @main
@@ -33,4 +26,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

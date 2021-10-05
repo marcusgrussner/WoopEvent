@@ -28,5 +28,8 @@ extension EventsCoordinator {
     }
     
     func detail(item: EventModel) {
+        let viewModel = EventDetailViewModel(event: item, coordinator: self)
+        let viewController = EventDetailViewController(viewModel: viewModel)
+        navigationController.pushViewController(viewController, animated: true)
     }
 }

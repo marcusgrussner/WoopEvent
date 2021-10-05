@@ -46,6 +46,10 @@
 		DF8F1F9B270C00CD00C5D040 /* QuickSpec+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F9A270C00CD00C5D040 /* QuickSpec+Ext.swift */; };
 		DF8F1FA0270C012000C5D040 /* eventsList.json in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1F9F270C012000C5D040 /* eventsList.json */; };
 		DF8F1FA2270C013800C5D040 /* event.json in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1FA1270C013800C5D040 /* event.json */; };
+		DF8F1FA5270C030000C5D040 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FA4270C030000C5D040 /* EventDetailView.swift */; };
+		DF8F1FA7270C030B00C5D040 /* EventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FA6270C030A00C5D040 /* EventDetailViewModel.swift */; };
+		DF8F1FA9270C031600C5D040 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FA8270C031600C5D040 /* EventDetailViewController.swift */; };
+		DF8F1FAB270C032900C5D040 /* CheckinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FAA270C032900C5D040 /* CheckinService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +108,10 @@
 		DF8F1F9A270C00CD00C5D040 /* QuickSpec+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuickSpec+Ext.swift"; sourceTree = "<group>"; };
 		DF8F1F9F270C012000C5D040 /* eventsList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = eventsList.json; sourceTree = "<group>"; };
 		DF8F1FA1270C013800C5D040 /* event.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = event.json; sourceTree = "<group>"; };
+		DF8F1FA4270C030000C5D040 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		DF8F1FA6270C030A00C5D040 /* EventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewModel.swift; sourceTree = "<group>"; };
+		DF8F1FA8270C031600C5D040 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		DF8F1FAA270C032900C5D040 /* CheckinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinService.swift; sourceTree = "<group>"; };
 		F15274945121DA6F2B4128E5 /* libPods-WoopEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -262,6 +270,7 @@
 		DF8F1F69270BFB2400C5D040 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				DF8F1FA3270C02E800C5D040 /* EventDetail */,
 				DF8F1F6A270BFB3400C5D040 /* EventsList */,
 			);
 			path = Events;
@@ -369,6 +378,17 @@
 				DF8F1FA1270C013800C5D040 /* event.json */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		DF8F1FA3270C02E800C5D040 /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1FA4270C030000C5D040 /* EventDetailView.swift */,
+				DF8F1FA6270C030A00C5D040 /* EventDetailViewModel.swift */,
+				DF8F1FA8270C031600C5D040 /* EventDetailViewController.swift */,
+				DF8F1FAA270C032900C5D040 /* CheckinService.swift */,
+			);
+			path = EventDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -570,6 +590,7 @@
 				DF8F1F5E270BF9B000C5D040 /* CoordinatorProtocol.swift in Sources */,
 				DF8F1F7D270BFC8700C5D040 /* BaseViewController.swift in Sources */,
 				DF8F1F89270BFD0400C5D040 /* UIView+Ext.swift in Sources */,
+				DF8F1FA5270C030000C5D040 /* EventDetailView.swift in Sources */,
 				DF8F1F70270BFB6F00C5D040 /* EventsListViewModel.swift in Sources */,
 				DF8F1F83270BFCCD00C5D040 /* UINavigationController+Ext.swift in Sources */,
 				DF8F1F7B270BFC6300C5D040 /* OverlayView.swift in Sources */,
@@ -577,10 +598,13 @@
 				DF8F1F6E270BFB6600C5D040 /* EventsListViewController.swift in Sources */,
 				DF8F1F72270BFB7A00C5D040 /* EventsListService.swift in Sources */,
 				DF3137A6270BF397007F36FA /* AppDelegate.swift in Sources */,
+				DF8F1FA9270C031600C5D040 /* EventDetailViewController.swift in Sources */,
 				DF3137A8270BF397007F36FA /* SceneDelegate.swift in Sources */,
 				DF8F1F6C270BFB5B00C5D040 /* EventsListView.swift in Sources */,
 				DF8F1F60270BF9C500C5D040 /* AppCoordinator.swift in Sources */,
+				DF8F1FA7270C030B00C5D040 /* EventDetailViewModel.swift in Sources */,
 				DF8F1F81270BFCBB00C5D040 /* UIImageView+Ext.swift in Sources */,
+				DF8F1FAB270C032900C5D040 /* CheckinService.swift in Sources */,
 				DF8F1F59270BF92500C5D040 /* EventModel.swift in Sources */,
 				DF8F1F4D270BF7F100C5D040 /* WPStrings.swift in Sources */,
 				DF8F1F85270BFCE100C5D040 /* Strings+Ext.swift in Sources */,

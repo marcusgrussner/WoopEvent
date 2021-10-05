@@ -19,6 +19,8 @@
 		DF8F1F4B270BF7D800C5D040 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1F4A270BF7D800C5D040 /* Localizable.strings */; };
 		DF8F1F4D270BF7F100C5D040 /* WPStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F4C270BF7F100C5D040 /* WPStrings.swift */; };
 		DF8F1F4F270BF81800C5D040 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1F4E270BF81800C5D040 /* swiftgen.yml */; };
+		DF8F1F59270BF92500C5D040 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F58270BF92500C5D040 /* EventModel.swift */; };
+		DF8F1F5B270BF92E00C5D040 /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F5A270BF92E00C5D040 /* InfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		DF8F1F4A270BF7D800C5D040 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		DF8F1F4C270BF7F100C5D040 /* WPStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPStrings.swift; sourceTree = "<group>"; };
 		DF8F1F4E270BF81800C5D040 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		DF8F1F58270BF92500C5D040 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		DF8F1F5A270BF92E00C5D040 /* InfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModel.swift; sourceTree = "<group>"; };
 		F15274945121DA6F2B4128E5 /* libPods-WoopEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,6 +121,7 @@
 		DF3137A4270BF397007F36FA /* WoopEvent */ = {
 			isa = PBXGroup;
 			children = (
+				DF8F1F57270BF91200C5D040 /* Models */,
 				DF8F1F47270BF77300C5D040 /* SupportingFiles */,
 				DF3137A5270BF397007F36FA /* AppDelegate.swift */,
 				DF3137A7270BF397007F36FA /* SceneDelegate.swift */,
@@ -160,6 +165,15 @@
 				DF8F1F4A270BF7D800C5D040 /* Localizable.strings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF8F1F57270BF91200C5D040 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1F58270BF92500C5D040 /* EventModel.swift */,
+				DF8F1F5A270BF92E00C5D040 /* InfoModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,7 +369,9 @@
 				DF3137AA270BF397007F36FA /* ViewController.swift in Sources */,
 				DF3137A6270BF397007F36FA /* AppDelegate.swift in Sources */,
 				DF3137A8270BF397007F36FA /* SceneDelegate.swift in Sources */,
+				DF8F1F59270BF92500C5D040 /* EventModel.swift in Sources */,
 				DF8F1F4D270BF7F100C5D040 /* WPStrings.swift in Sources */,
+				DF8F1F5B270BF92E00C5D040 /* InfoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

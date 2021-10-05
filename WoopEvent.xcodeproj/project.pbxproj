@@ -37,6 +37,15 @@
 		DF8F1F85270BFCE100C5D040 /* Strings+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F84270BFCE100C5D040 /* Strings+Ext.swift */; };
 		DF8F1F87270BFCF100C5D040 /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F86270BFCF100C5D040 /* Double+Ext.swift */; };
 		DF8F1F89270BFD0400C5D040 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F88270BFD0400C5D040 /* UIView+Ext.swift */; };
+		DF8F1F8C270BFFF800C5D040 /* MockAPIServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F8B270BFFF800C5D040 /* MockAPIServiceManager.swift */; };
+		DF8F1F94270C005200C5D040 /* EventsListViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F8F270C005200C5D040 /* EventsListViewModelSpec.swift */; };
+		DF8F1F95270C005200C5D040 /* EventsListServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F90270C005200C5D040 /* EventsListServiceSpec.swift */; };
+		DF8F1F96270C005200C5D040 /* EventsListViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F91270C005200C5D040 /* EventsListViewSpec.swift */; };
+		DF8F1F97270C005200C5D040 /* EventsListRequestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F92270C005200C5D040 /* EventsListRequestSpec.swift */; };
+		DF8F1F98270C005200C5D040 /* EventsListViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F93270C005200C5D040 /* EventsListViewControllerSpec.swift */; };
+		DF8F1F9B270C00CD00C5D040 /* QuickSpec+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F9A270C00CD00C5D040 /* QuickSpec+Ext.swift */; };
+		DF8F1FA0270C012000C5D040 /* eventsList.json in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1F9F270C012000C5D040 /* eventsList.json */; };
+		DF8F1FA2270C013800C5D040 /* event.json in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1FA1270C013800C5D040 /* event.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +95,15 @@
 		DF8F1F84270BFCE100C5D040 /* Strings+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Ext.swift"; sourceTree = "<group>"; };
 		DF8F1F86270BFCF100C5D040 /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
 		DF8F1F88270BFD0400C5D040 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		DF8F1F8B270BFFF800C5D040 /* MockAPIServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIServiceManager.swift; sourceTree = "<group>"; };
+		DF8F1F8F270C005200C5D040 /* EventsListViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsListViewModelSpec.swift; sourceTree = "<group>"; };
+		DF8F1F90270C005200C5D040 /* EventsListServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsListServiceSpec.swift; sourceTree = "<group>"; };
+		DF8F1F91270C005200C5D040 /* EventsListViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsListViewSpec.swift; sourceTree = "<group>"; };
+		DF8F1F92270C005200C5D040 /* EventsListRequestSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsListRequestSpec.swift; sourceTree = "<group>"; };
+		DF8F1F93270C005200C5D040 /* EventsListViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsListViewControllerSpec.swift; sourceTree = "<group>"; };
+		DF8F1F9A270C00CD00C5D040 /* QuickSpec+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuickSpec+Ext.swift"; sourceTree = "<group>"; };
+		DF8F1F9F270C012000C5D040 /* eventsList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = eventsList.json; sourceTree = "<group>"; };
+		DF8F1FA1270C013800C5D040 /* event.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = event.json; sourceTree = "<group>"; };
 		F15274945121DA6F2B4128E5 /* libPods-WoopEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -171,6 +189,10 @@
 		DF3137BB270BF399007F36FA /* WoopEventTests */ = {
 			isa = PBXGroup;
 			children = (
+				DF8F1F9C270C00DB00C5D040 /* Mocks */,
+				DF8F1F99270C00BB00C5D040 /* Helpers */,
+				DF8F1F8D270C001300C5D040 /* Features */,
+				DF8F1F8A270BFFE600C5D040 /* MockAPIService */,
 				DF3137BC270BF399007F36FA /* WoopEventTests.swift */,
 			);
 			path = WoopEventTests;
@@ -304,6 +326,51 @@
 			path = OverlayView;
 			sourceTree = "<group>";
 		};
+		DF8F1F8A270BFFE600C5D040 /* MockAPIService */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1F8B270BFFF800C5D040 /* MockAPIServiceManager.swift */,
+			);
+			path = MockAPIService;
+			sourceTree = "<group>";
+		};
+		DF8F1F8D270C001300C5D040 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1F8E270C001D00C5D040 /* EventsList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DF8F1F8E270C001D00C5D040 /* EventsList */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1F92270C005200C5D040 /* EventsListRequestSpec.swift */,
+				DF8F1F90270C005200C5D040 /* EventsListServiceSpec.swift */,
+				DF8F1F93270C005200C5D040 /* EventsListViewControllerSpec.swift */,
+				DF8F1F8F270C005200C5D040 /* EventsListViewModelSpec.swift */,
+				DF8F1F91270C005200C5D040 /* EventsListViewSpec.swift */,
+			);
+			path = EventsList;
+			sourceTree = "<group>";
+		};
+		DF8F1F99270C00BB00C5D040 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1F9A270C00CD00C5D040 /* QuickSpec+Ext.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF8F1F9C270C00DB00C5D040 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1F9F270C012000C5D040 /* eventsList.json */,
+				DF8F1FA1270C013800C5D040 /* event.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -400,6 +467,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8F1FA2270C013800C5D040 /* event.json in Resources */,
+				DF8F1FA0270C012000C5D040 /* eventsList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +592,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8F1F8C270BFFF800C5D040 /* MockAPIServiceManager.swift in Sources */,
+				DF8F1F96270C005200C5D040 /* EventsListViewSpec.swift in Sources */,
+				DF8F1F9B270C00CD00C5D040 /* QuickSpec+Ext.swift in Sources */,
+				DF8F1F98270C005200C5D040 /* EventsListViewControllerSpec.swift in Sources */,
+				DF8F1F94270C005200C5D040 /* EventsListViewModelSpec.swift in Sources */,
 				DF3137BD270BF399007F36FA /* WoopEventTests.swift in Sources */,
+				DF8F1F97270C005200C5D040 /* EventsListRequestSpec.swift in Sources */,
+				DF8F1F95270C005200C5D040 /* EventsListServiceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

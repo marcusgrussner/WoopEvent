@@ -21,14 +21,14 @@ extension EventsListService {
     // MARK: - Public methods
     
     func fetchAll(completion: @escaping (Result<[EventModel], AFError>) -> Void) {
-        let request = EventListRequest()
+        let request = EventsListRequest()
         service.performRequest(route: request, completion: completion)
     }
 }
 
 // MARK: - EventList Request
 
-struct EventListRequest: BaseRequestProtocol {
+struct EventsListRequest: BaseRequestProtocol {
     var path: String
     var method: HTTPMethod
     var body: Parameters?

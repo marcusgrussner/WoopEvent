@@ -94,6 +94,13 @@ extension EventsListView {
         overlay.isHidden = true
     }
     
+    func showEmptyList() {
+        tableView.isHidden = true
+        message.text = WPStrings.eventListEmptyMessage
+        stackView.isHidden = false
+        overlay.isHidden = true
+    }
+    
     // MARK: - Private methods
     
     private func setup() {

@@ -47,8 +47,9 @@ extension EventsListViewModel {
         service.fetchAll { result in
             switch result {
             case let .success(events):
-                self.state.accept(.data)
+                self.state.accept(events.count > 0 ? .data : .empty)
                 self.events.accept(events)
+                
             case .failure:
                 self.state.accept(.error)
             }

@@ -88,12 +88,26 @@ extension EventDetailView {
     
     // MARK: - Internal methods
     
-    func configure(name: String, date: String, price: String, desc: String, thumbnail: URL) {
-        self.name.text = name
-        self.date.text = date
-        self.price.text = price
-        self.desc.text = desc
-        self.thumbnail.load(url: thumbnail)
+    func configure(name: String?, date: Date?, price: Double?, desc: String?, thumbnail: URL?) {
+        if let name = name {
+            self.name.text = name
+        }
+        
+        if let date = date {
+            self.date.text = date.format
+        }
+        
+        if let price = price {
+            self.price.text = price.toCurrency
+        }
+        
+        if let desc = desc {
+            self.desc.text = desc
+        }
+        
+        if let thumbnail = thumbnail {
+            self.thumbnail.load(url: thumbnail)
+        }
     }
     
     func showLoading() {
@@ -111,7 +125,7 @@ extension EventDetailView {
     }
     
     func showData() {}
-        
+    
     // MARK: - Private methods
     
     private func setup() {

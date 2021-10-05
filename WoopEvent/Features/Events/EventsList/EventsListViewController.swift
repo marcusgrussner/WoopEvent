@@ -10,6 +10,7 @@ final class EventsListViewController: BaseViewController<EventsListView>, UIScro
         case loading
         case error
         case data
+        case empty
     }
     
     var state: State = .loading {
@@ -21,6 +22,8 @@ final class EventsListViewController: BaseViewController<EventsListView>, UIScro
                 customView.showError()
             case .data:
                 customView.showTableView()
+            case .empty:
+                customView.showEmptyList()
             }
         }
     }
@@ -87,6 +90,14 @@ extension EventsListViewController {
             .asDriver()
             .drive(onNext: { [weak self] item in
                 self?.viewModel.detail(item: item)
+            })
+            .disposed(by: disposeBag)
+        
+        customView.retry
+            .rx
+            .tap
+            .subscribe(onNext: { [weak self] _ in
+                self?.viewModel.fetch()
             })
             .disposed(by: disposeBag)
         

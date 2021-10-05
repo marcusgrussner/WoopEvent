@@ -21,7 +21,7 @@ final class EventDetailViewModel {
     private let service = CheckinService(service: ServiceManager())
     private let coordinator: EventsCoordinator
     private let event: EventModel
-
+    
     private let state: PublishRelay<EventDetailViewController.State>
     private let data: PublishRelay<EventModel>
     
@@ -48,13 +48,16 @@ extension EventDetailViewModel {
     func loadData() {
         data.accept(event)
     }
-
+    
     func checkin() {
+        
+        guard let eventId = event.id else { return }
+        
         state.accept(.loading)
         
-        let checkin = InfoModel(event: event.id,
-                           name: "Marcus",
-                           email: "teste@teste.com.br")
+        let checkin = InfoModel(event: eventId,
+                                name: "Marcus",
+                                email: "teste@teste.com.br")
         
         service.checkin(info: checkin) { result in
             switch result {
@@ -62,7 +65,7 @@ extension EventDetailViewModel {
                 self.state.accept(.success)
             case .failure:
                 self.state.accept(.error)
-//                self.coordinator.error()
+                //                self.coordinator.error()
             }
         }
     }

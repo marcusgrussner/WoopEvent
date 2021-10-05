@@ -62,8 +62,8 @@ extension EventDetailViewController {
             .asObservable()
             .bind(onNext: { [weak self] event in
                 self?.customView.configure(name: event.title,
-                                           date: event.date.format,
-                                           price: event.price.toCurrency,
+                                           date: event.date,
+                                           price: event.price,
                                            desc: event.description,
                                            thumbnail: event.image)
             })

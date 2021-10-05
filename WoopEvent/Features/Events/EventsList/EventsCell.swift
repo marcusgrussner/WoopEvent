@@ -70,11 +70,22 @@ extension EventsCell {
     
     // MARK: - Internal methods
     
-    public func configure(imageURL: URL, title: String, date: Date, price: Double) {
-        self.thumbnail.load(url: imageURL)
-        self.name.text = title
-        self.date.text = date.format
-        self.price.text = price.toCurrency
+    public func configure(imageURL: URL?, title: String?, date: Date?, price: Double?) {
+        if let imageURL = imageURL {
+            self.thumbnail.load(url: imageURL)
+        }
+        
+        if let title = title {
+            self.name.text = title
+        }
+        
+        if let date = date {
+            self.date.text = date.format
+        }
+        
+        if let price = price {
+            self.price.text = price.toCurrency
+        }
     }
         
     // MARK: - Private methods

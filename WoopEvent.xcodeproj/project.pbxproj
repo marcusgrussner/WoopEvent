@@ -13,7 +13,6 @@
 		DF3137A8270BF397007F36FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3137A7270BF397007F36FA /* SceneDelegate.swift */; };
 		DF3137AF270BF399007F36FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3137AE270BF399007F36FA /* Assets.xcassets */; };
 		DF3137B2270BF399007F36FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3137B0270BF399007F36FA /* LaunchScreen.storyboard */; };
-		DF3137BD270BF399007F36FA /* WoopEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3137BC270BF399007F36FA /* WoopEventTests.swift */; };
 		DF8F1F4B270BF7D800C5D040 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1F4A270BF7D800C5D040 /* Localizable.strings */; };
 		DF8F1F4D270BF7F100C5D040 /* WPStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1F4C270BF7F100C5D040 /* WPStrings.swift */; };
 		DF8F1F4F270BF81800C5D040 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = DF8F1F4E270BF81800C5D040 /* swiftgen.yml */; };
@@ -50,6 +49,10 @@
 		DF8F1FA7270C030B00C5D040 /* EventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FA6270C030A00C5D040 /* EventDetailViewModel.swift */; };
 		DF8F1FA9270C031600C5D040 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FA8270C031600C5D040 /* EventDetailViewController.swift */; };
 		DF8F1FAB270C032900C5D040 /* CheckinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FAA270C032900C5D040 /* CheckinService.swift */; };
+		DF8F1FB1270C042300C5D040 /* EventDetailViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FAD270C042200C5D040 /* EventDetailViewControllerSpec.swift */; };
+		DF8F1FB2270C042300C5D040 /* EventDetailRequestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FAE270C042200C5D040 /* EventDetailRequestSpec.swift */; };
+		DF8F1FB3270C042300C5D040 /* EventDetailViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FAF270C042300C5D040 /* EventDetailViewModelSpec.swift */; };
+		DF8F1FB4270C042300C5D040 /* EventDetailViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F1FB0270C042300C5D040 /* EventDetailViewSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +78,6 @@
 		DF3137B1270BF399007F36FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF3137B3270BF399007F36FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF3137B8270BF399007F36FA /* WoopEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoopEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3137BC270BF399007F36FA /* WoopEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoopEventTests.swift; sourceTree = "<group>"; };
 		DF8F1F4A270BF7D800C5D040 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		DF8F1F4C270BF7F100C5D040 /* WPStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPStrings.swift; sourceTree = "<group>"; };
 		DF8F1F4E270BF81800C5D040 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
@@ -112,6 +114,10 @@
 		DF8F1FA6270C030A00C5D040 /* EventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewModel.swift; sourceTree = "<group>"; };
 		DF8F1FA8270C031600C5D040 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		DF8F1FAA270C032900C5D040 /* CheckinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinService.swift; sourceTree = "<group>"; };
+		DF8F1FAD270C042200C5D040 /* EventDetailViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewControllerSpec.swift; sourceTree = "<group>"; };
+		DF8F1FAE270C042200C5D040 /* EventDetailRequestSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailRequestSpec.swift; sourceTree = "<group>"; };
+		DF8F1FAF270C042300C5D040 /* EventDetailViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewModelSpec.swift; sourceTree = "<group>"; };
+		DF8F1FB0270C042300C5D040 /* EventDetailViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewSpec.swift; sourceTree = "<group>"; };
 		F15274945121DA6F2B4128E5 /* libPods-WoopEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -201,7 +207,6 @@
 				DF8F1F99270C00BB00C5D040 /* Helpers */,
 				DF8F1F8D270C001300C5D040 /* Features */,
 				DF8F1F8A270BFFE600C5D040 /* MockAPIService */,
-				DF3137BC270BF399007F36FA /* WoopEventTests.swift */,
 			);
 			path = WoopEventTests;
 			sourceTree = "<group>";
@@ -346,6 +351,7 @@
 		DF8F1F8D270C001300C5D040 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				DF8F1FAC270C040100C5D040 /* EventDetail */,
 				DF8F1F8E270C001D00C5D040 /* EventsList */,
 			);
 			path = Features;
@@ -387,6 +393,17 @@
 				DF8F1FA6270C030A00C5D040 /* EventDetailViewModel.swift */,
 				DF8F1FA8270C031600C5D040 /* EventDetailViewController.swift */,
 				DF8F1FAA270C032900C5D040 /* CheckinService.swift */,
+			);
+			path = EventDetail;
+			sourceTree = "<group>";
+		};
+		DF8F1FAC270C040100C5D040 /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1FAE270C042200C5D040 /* EventDetailRequestSpec.swift */,
+				DF8F1FAD270C042200C5D040 /* EventDetailViewControllerSpec.swift */,
+				DF8F1FAF270C042300C5D040 /* EventDetailViewModelSpec.swift */,
+				DF8F1FB0270C042300C5D040 /* EventDetailViewSpec.swift */,
 			);
 			path = EventDetail;
 			sourceTree = "<group>";
@@ -616,14 +633,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8F1FB4270C042300C5D040 /* EventDetailViewSpec.swift in Sources */,
 				DF8F1F8C270BFFF800C5D040 /* MockAPIServiceManager.swift in Sources */,
 				DF8F1F96270C005200C5D040 /* EventsListViewSpec.swift in Sources */,
 				DF8F1F9B270C00CD00C5D040 /* QuickSpec+Ext.swift in Sources */,
+				DF8F1FB2270C042300C5D040 /* EventDetailRequestSpec.swift in Sources */,
 				DF8F1F98270C005200C5D040 /* EventsListViewControllerSpec.swift in Sources */,
 				DF8F1F94270C005200C5D040 /* EventsListViewModelSpec.swift in Sources */,
-				DF3137BD270BF399007F36FA /* WoopEventTests.swift in Sources */,
+				DF8F1FB1270C042300C5D040 /* EventDetailViewControllerSpec.swift in Sources */,
 				DF8F1F97270C005200C5D040 /* EventsListRequestSpec.swift in Sources */,
 				DF8F1F95270C005200C5D040 /* EventsListServiceSpec.swift in Sources */,
+				DF8F1FB3270C042300C5D040 /* EventDetailViewModelSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
